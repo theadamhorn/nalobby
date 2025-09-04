@@ -5,7 +5,7 @@ pages:
   script:
     - npm ci
     - npm run build
-    - npm run start
+    - mv dist public
   artifacts:
     paths:
       - public
