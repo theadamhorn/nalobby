@@ -3,7 +3,7 @@ import solidPlugin from 'vite-plugin-solid';
 
 export default defineConfig({
   plugins: [solidPlugin()],
-  base: '/nalobby/',  // <-- replace with your actual repo name
+  base: '/nalobby/',  
   build: {
     outDir: 'dist',
   },
