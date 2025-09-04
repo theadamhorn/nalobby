@@ -3,7 +3,7 @@ image: node:18
 pages:
   stage: deploy
   script:
-    - npm install
+    - npm ci
     - npm run build
     - npm run start
   artifacts:
