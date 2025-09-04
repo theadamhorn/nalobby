@@ -1,11 +1,13 @@
+image: node:18
+
 pages:
   stage: deploy
   script:
-    - mkdir .public
-    - cp -r * .public
-    - mv .public public
+    - npm install
+    - npm run build
+    - mv dist public   # change to 'build' if React
   artifacts:
     paths:
       - public
   only:
-    - main   # or 'master', depending on your default branch
+    - main
