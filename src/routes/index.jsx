@@ -1,7 +1,12 @@
-;import { Title } from "@solidjs/meta";
+import { Title } from "@solidjs/meta";
 
-import Carousel from "~/components/carousel";
-import testimonyBanner from "/assets/testimony-banner.png";
+// COMPONENTS
+import HomeBanner from "~/components/homeBanner";
+import HrDivider from "~/components/hrDivider";
+import ContactButton from "~/components/contactbutton";
+
+// PICTURES
+import testimonyBanner from "/assets/pictures/testimony-banner.png";
 
 const homeSubtitle1 = "Norwood Associates is a boutique government relations firm built on decades of earned trust to consistently punch above our weight."
 
@@ -11,12 +16,13 @@ const cardTwoTitle = "DEDICATED";
 const cardTwoText = "Our small team has learned to do more with less for all of our clients.";
 const cardThreeTitle = "KEEN INSIGHT";
 const cardThreeText = "Getting you the latest information on issues affecting your business.";
+const contactPrompt = "Learn more how Norwood Associates can advocate for you in Sacramento.";
 
 export default function Home() {
   return (
     <main>
       <Title>Norwood Associates</Title>
-      <Carousel />
+      <HomeBanner />
       <div class="separator-row"></div>
 
       <div class="container-fluid">
@@ -66,16 +72,13 @@ export default function Home() {
           </div>
           
         </div>
-        <div class="row mt-md-5 pt-md-5 mb-5">
-          <div class="col-md-7 ">
-            <hr />
-          </div>
-        </div>
-
         
-
-          
+        <HrDivider />
+        <ContactButton 
+          prompt={contactPrompt}
+        />
       </div>
+      
       <div>
         <div class="separator-row"></div>
         <img src={testimonyBanner} class="d-block w-100 testimony-banner" alt="..."/>

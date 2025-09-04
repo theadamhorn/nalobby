@@ -39,59 +39,7 @@ p {
   justify-content: center;
 }
 
-.index-carousel {
-  margin-top: 5%;
-}
 
-.carousel-item {
-  height: 80vh;
-}
-
-
-.carousel-caption {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 65vh;
-}
-
-.home-banner-image {
-  object-fit: cover;
-  height: 85vh;
-  width: 100%;
-}
-
-.carousel-logo {
-  width: auto;
-  max-height: 250px;
-  object-fit: contain !important;
-}
-
-.carousel-card {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  width: 100%;
-  background-color: #ffffff7e !important;
-  border: 0 !important;
-  border-radius: 0 !important;
-}
-
-.carousel-item-title{
-  color: #00047a;
-  /* text-shadow: -1px 2px #e5e7f6; */
-  font-size: 50pt;
-  font-weight: 600;
-  font-family: 'Century Gothic Paneuropean', sans-serif;
-  text-align: end;
-}
-
-.carousel-item-subtitle {
-  color: #fff;
-  text-shadow: 2px 1px #00023da8;
-  
-}
 
 .intro-title {
   text-align: start;
@@ -101,11 +49,7 @@ p {
   line-height: 1.5;
 }
 
-/* .home-descriptions.left {
-  text-align: center;
-} */
-
-.card {
+.homepage-card {
   box-shadow: 0 2px 4px 0 #cccccc86;
   height: 350px !important;
   width: 350px !important;
@@ -165,7 +109,7 @@ p {
 }
 
 .card-page-link:hover {
-  color: #e9c85a !important;
+  color: #ffd416 !important;
 }
 
 .separator-row {
@@ -173,6 +117,37 @@ p {
   background-color: #6474e9;
 }
 
+.page-banner-image {
+  object-fit: cover;
+  height: 50vh;
+  width: 100%;
+  filter: grayscale(1);
+}
+
+
+.page-banner-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.page-banner-card {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  width: 100%;
+  background-color: #6474e9b9 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.page-banner-title {
+  font-weight: 600;
+  font-size: 32pt;
+  /* text-shadow: 2px 2px 5px #00023d; */
+}
 
 
 @media screen and (max-width: 479px) {

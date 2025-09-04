@@ -1,0 +1,11 @@
+.client-item {
+  border: 0 !important;
+}
+
+.past-client-toggle {
+  cursor: pointer;
+}
+
+.client-title {
+  color: #00035c;
+}
