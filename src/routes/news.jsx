@@ -4,7 +4,7 @@ import { Title } from "@solidjs/meta";
 import PageTitleBanner from "~/components/pageTitleBanner";
 
 // PICTURES
-import newsImage from "/assets/pictures/news.jpeg";
+import newsImage from "../../public/assets/pictures/news.jpeg";
 
 const pageTitle = "News";
 const pageSubtitle = "Stay informed with timely updates, in-depth reports, and trusted insights that highlight our work for you and the issues shaping today's policy landscape.";

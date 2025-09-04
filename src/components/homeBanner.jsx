@@ -1,7 +1,7 @@
 import { createSignal } from "solid-js";
 import "./homebanner.css";
 
-import capitolDome from "/assets/pictures/interior-of-california-capitol.jpg";
+import capitolDome from "../../public/assets/pictures/interior-of-california-capitol.jpg";
 
 export default function HomeBanner() {
   return (

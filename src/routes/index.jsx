@@ -6,7 +6,7 @@ import HrDivider from "~/components/hrDivider";
 import ContactButton from "~/components/contactbutton";
 
 // PICTURES
-import testimonyBanner from "/assets/pictures/testimony-banner.png";
+import testimonyBanner from "../../public/assets/pictures/testimony-banner.png";
 
 const homeSubtitle1 = "Norwood Associates is a boutique government relations firm built on decades of earned trust to consistently punch above our weight."
 

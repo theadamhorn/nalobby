@@ -9,7 +9,7 @@ import HrDivider from "~/components/hrDivider";
 import "../components/clientspage.css";
 
 // PICTURES
-import clientHandshake from "/assets/pictures/clients.jpg";
+import clientHandshake from "../../public/assets/pictures/clients.jpg";
 import clientList from "../../public/assets/clients.json";
 
 const pageTitle = "Clients";

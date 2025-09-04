@@ -7,7 +7,7 @@ import PageTitleBanner from "~/components/pageTitleBanner";
 import "../components/teampage.css";
 import teamData from "../../public/assets/team-info.json";
 // IMAGES
-import staffPicture from "/assets/pictures/norwood-staff.jpeg";
+import staffPicture from "../../public/assets/pictures/norwood-staff.jpeg";
 
 
 const pageTitle = "Meet the Team";

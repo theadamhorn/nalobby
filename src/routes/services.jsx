@@ -7,8 +7,8 @@ import ContactButton from "~/components/contactbutton";
 import "../components/servicespage.css";
 
 // IMAGES AND ASSETS
-import assemblyFloor from "/assets/pictures/assembly-floor.jpg";
-import exampleTwis from "/assets/documents/TWIS-example.pdf";
+import assemblyFloor from "../../public/assets/pictures/assembly-floor.jpg";
+import exampleTwis from "../../public/assets/documents/TWIS-example.pdf";
 
 const pageTitle = "Services";
 const pageSubtitle = "We have decades of experience building strong relationships with key policy makers and developing successful strategies to effectively advocate for clients in Sacramento.";

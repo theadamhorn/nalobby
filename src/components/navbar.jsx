@@ -1,5 +1,5 @@
 import { createSignal } from "solid-js";
-import norwoodLogo from "/assets/pictures/NA-nobackground.png";
+import norwoodLogo from "../../public/assets/pictures/NA-nobackground.png";
 
 import "./navbar.css";
 
