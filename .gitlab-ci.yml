@@ -3,9 +3,9 @@ image: node:18
 pages:
   stage: deploy
   script:
-    - npm ci
+    - npm install
     - npm run build
-    - mv dist public
+    - npm run start
   artifacts:
     paths:
       - public
