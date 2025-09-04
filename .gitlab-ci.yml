@@ -1,10 +1,23 @@
-image: node:18
+image: node:20
 
-pages:
-  stage: deploy
+stages:
+  - build
+  - deploy
+
+build_job:
+  stage: build
   script:
     - npm ci
     - npm run build
+  artifacts:
+    paths:
+      - dist
+
+pages:
+  stage: deploy
+  dependencies:
+    - build_job
+  script:
     - mv dist public
   artifacts:
     paths:
